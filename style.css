@@ -89,10 +89,10 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    margin-left:2%;
+    /* margin-left:2%; */
     margin-top: 20px;
-     /* display: flex;
-    flex-wrap: wrap; */
+    /* github pages making center */
+    margin-left: 28%;
     
 
 
