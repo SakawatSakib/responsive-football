@@ -1,52 +1,59 @@
-/* google font  */
+/*----------------------- google font-----------------  */
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    
+    overflow-x: hidden;
 }
-/*----------- header area------------ */
+/*------------------ header area---------------------- */
 
 .header-area{
     background-color: #483d8b;
     height: 400px;
-    
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    
-    align-items: center;
-   
+    display: flex;
+    flex-direction: row;    
+    align-items: center;  
     padding-left: 80px;
     padding-top:30px ;
+    
    
- 
+}
+.header-area:hover .header-banner{
+    transform: scale(1.15) rotate(2.9deg);
+    transition: transform 2s ease-in-out;
 }
 
+.header-info{
+    margin-left: 60px;
+    
+    
+}
+.header-area .header-banner img{
+    margin-left: 190px;
+    width:70%;
+}
 
-.header-info a{
-    color: white;
-    text-decoration: none;
+h2{
     
-}
-.header-info .arrow{
-    margin-left: 5px;
-}
-.copa-title{
-    
-    margin-right: 200px;
-}
-.header-info .copa-title h1{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
     font-size: 37px;
     margin: 1px;
     color: white;
-    
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-  
-   
-    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);  
 }
 
 
-/* header watch live button css */
+.watch-live{
+    
+    text-decoration: none;
+    color: white;
+    
+}
+.header-info .arrow{
+    margin-left: 6px;
+   
+}
+
+/* -----------------header watch live button css------------------- */
 .anchor-button{
     display: flex;
     flex-direction: row;
@@ -56,17 +63,16 @@ body{
     height: 44px;
     background-color:#E02C6D;
     border-radius: 5px;
+    color: white;
    
     
 
 }
-.header-banner img{
-    width:100%;
-}
+
 .header-banner{
     padding-right: 70px;
 }
-/* players section */
+/*--------------------- players section ---------------------*/
 .players-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -80,10 +86,7 @@ body{
 
 }
 .player{
-    /* display: flex; */
-    
-    /* flex-direction: column; */
-    /* align-items: flex-start; */
+   
     margin: 15px;
     padding: 15px;
     width: 200px;
@@ -94,12 +97,13 @@ body{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     
 }
+.player img{
+    width: 100%;
+}
 .player-info p{
     
     font-size: 12px;
    
     color: #675da7;
 }
-.player img{
-    width: 100%;
-}
+/* extra section given home-work on assignment by jhankar mahabub */
