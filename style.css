@@ -8,6 +8,7 @@ body{
 
 .header-area{
     background-color: #483d8b;
+    width: 110%;
     height: 700px;
     display: flex;
     /* flex-direction: row;     */
@@ -38,7 +39,7 @@ body{
 }
 .header-area .header-banner img{
     margin-left: 190px;
-    width:60%;
+    width:50%;
 }
 
 
