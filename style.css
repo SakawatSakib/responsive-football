@@ -17,9 +17,13 @@ body{
     
    
 }
+/*--- header photo hover tansform + tansition---------------------- */
 .header-area:hover .header-banner{
     transform: scale(1.15) rotate(2.9deg);
     transition: transform 2s ease-in-out;
+}
+.anchor-button:hover{
+    background-color: red;
 }
 
 .header-info{
