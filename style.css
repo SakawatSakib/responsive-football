@@ -8,7 +8,7 @@ body{
 
 .header-area{
     background-color: #483d8b;
-    /* height: 400px; */
+    height: 700px;
     display: flex;
     /* flex-direction: row;     */
     align-items: center;  
@@ -27,15 +27,20 @@ body{
 }
 
 .header-info{
-    margin-left: 60px;
-    
-    
-    
+    margin-left: 90px;   
+}
+.copa-title{
+    display: grid;
+}
+.header-banner{
+    padding-right: 70px;
+    width: 670px;
 }
 .header-area .header-banner img{
     margin-left: 190px;
     width:60%;
 }
+
 
 h2{
     
@@ -77,15 +82,13 @@ h2{
 
 }
 
-.header-banner{
-    padding-right: 70px;
-}
+
 /*--------------------- players section ---------------------*/
 .players-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    margin-left:8%;
+    margin-left:%;
     margin-top: 20px;
      /* display: flex;
     flex-wrap: wrap; */
@@ -137,7 +140,7 @@ h2{
 }
 .extra-detail span{
     font-size: 12px;
-    color: #4f42a0;
+    color: #b2afc9
   
 }
 .futbol{
