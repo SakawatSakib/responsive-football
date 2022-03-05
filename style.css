@@ -88,11 +88,11 @@ h2{
 .players-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    justify-content: center;
+    justify-content: start;
     /* margin-left:2%; */
     margin-top: 20px;
     /* github pages making center */
-    margin-left: 28%;
+    margin-left: 8%;
     
 
 
