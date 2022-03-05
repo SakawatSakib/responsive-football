@@ -57,6 +57,7 @@ h2{
 }
 .header-info .arrow{
     margin-left: 6px;
+    
    
 }
 
@@ -140,4 +141,29 @@ h2{
 }
 .futbol{
     color: darkblue;
+}
+/*------------ footer css----------- */
+footer{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    justify-items: center;
+    align-items: center;
+    height:213px;
+    margin-left:100px;
+    margin-top: 20px;
+}
+.copyright{
+  color: #6C6C6C;
+  font-size: 20px;
+}
+/* .footer-img .icons{
+    width:100%;
+} */
+.footer-img img{
+    width: 50%;
+    margin-left: 200px;
+}
+.icons a img{
+    width:50px;
+    height: 50px;
 }
