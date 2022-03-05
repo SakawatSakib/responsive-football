@@ -8,12 +8,12 @@ body{
 
 .header-area{
     background-color: #483d8b;
-    width: 110%;
-    height: 700px;
+    
+    height: 400px;
     display: flex;
-    /* flex-direction: row;     */
+ 
     align-items: center;  
-    padding-left: 100px;
+    padding-left: 80px;
     padding-top:30px ;
     
    
@@ -28,18 +28,18 @@ body{
 }
 
 .header-info{
-    margin-left: 90px;   
+    margin-left: 80px;   
 }
 .copa-title{
     display: grid;
 }
 .header-banner{
     padding-right: 70px;
-    width: 670px;
+    width: 500px;
 }
 .header-area .header-banner img{
     margin-left: 190px;
-    width:50%;
+    width:80%;
 }
 
 
@@ -89,7 +89,7 @@ h2{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     justify-content: center;
-    margin-left:%;
+    margin-left:2%;
     margin-top: 20px;
      /* display: flex;
     flex-wrap: wrap; */
