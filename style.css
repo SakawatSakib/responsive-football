@@ -1,7 +1,7 @@
 /*----------------------- google font-----------------  */
 body{
     font-family: 'Poppins', sans-serif;
-    /* margin: 0; */
+    margin: 0;
     max-width:100%;
     overflow-x: hidden;
 }
@@ -41,7 +41,7 @@ body{
 }
 .header-area img{
     margin: 20px 180px;
-    width: 50%;
+    width: 60%;
 }
 
 
@@ -94,7 +94,7 @@ h2{
     /* margin-left:2%; */
     margin-top: 20px;
     /* github pages making center */
-    margin-left: 11%;
+    margin-left: 10%;
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
