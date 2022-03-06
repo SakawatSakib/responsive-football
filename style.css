@@ -148,7 +148,8 @@ h2{
 }
 .extra-detail span{
     font-size: 12px;
-    color: #bcbbc7
+    color: #d8d8e8;
+    background-color: rgba(0, 0, 139, 0.542);
   
 }
 .futbol{
