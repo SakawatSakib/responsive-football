@@ -21,7 +21,7 @@ body{
 }
 /*--- header photo hover tansform + tansition---------------------- */
 .header-area:hover .header-banner{
-    transform: scale(1.13) rotate(2.9deg);
+    transform: scale(1.15) rotate(2.9deg);
     transition: transform 2s ease-in-out;
 }
 .anchor-button:hover{
@@ -41,7 +41,7 @@ body{
 }
 .header-area img{
     margin-left: 140px;
-    width: 70%;
+    width: 50%;
 }
 
 
