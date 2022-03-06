@@ -40,7 +40,7 @@ body{
     
 }
 .header-area img{
-    margin-left: 140px;
+    margin: 20px 180px;
     width: 50%;
 }
 
@@ -94,7 +94,7 @@ h2{
     /* margin-left:2%; */
     margin-top: 20px;
     /* github pages making center */
-    margin-left: 10%;
+    margin-left: 11%;
     grid-gap: 20px;
     align-items: center;
     justify-items: center;
