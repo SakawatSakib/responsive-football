@@ -16,11 +16,11 @@ body{
     align-items: center;  
     padding-left: 100px;
     padding-right: 38px;
-    /* padding-top:30px ; */
-    /* margin: 10px; */
+   
     
    
 }
+
 /*--- header photo hover tansform + tansition---------------------- */
 .header-area:hover .header-banner{
     transform: scale(1.15) rotate(2.9deg);
@@ -33,10 +33,7 @@ body{
 .header-info{
     margin-left: 80px;   
 }
-/*----------------- .copa-title h2{
-    display: grid;
-    
-} ----------------------*/
+
 .header-banner{
     padding-right: 70px;
     
@@ -92,8 +89,7 @@ h2{
 .players-album{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    /* justify-content: start; */
-    /* margin-left:2%; */
+   
     margin-top: 40px;
     /* github pages making center */
     margin-left: 6%;
@@ -106,7 +102,7 @@ h2{
 
 }
 .player{
-    /* margin: 10px; */
+  
     
     padding: 10px;
     width: 280px;
@@ -189,7 +185,7 @@ footer{
    
     .header-area{
         background-color: red;
-        /* width: 400px; */
+       
         width: 600px;
         height: 500px;
         display: flex;
@@ -207,16 +203,13 @@ footer{
         margin-right: 50px;
         width: 100%;
     }
-    .header-banner{
-        /* padding-right: 180px;
-        margin-right: 100px; */
-    }
+    
     /*------ player photo album------- */
     .players-album{
         background-color: blueviolet;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        /* width: 700px; */
+        
         width:740px;
         margin:10px 0px;
     }
@@ -239,8 +232,7 @@ footer{
 
     }
     .video iframe{
-       /* width:90%; */
-       /* padding: 70px; */
+      
        justify-content:center;
 
     }
@@ -253,21 +245,24 @@ footer{
        width: 100%;
        padding-right: 300px;
    }
-   .icons a>img{
-    width:30px;
-    height: 30px;
    
-   }
-   .icons{
-       margin-right: 90px;
-   }
-  .copyright{
-      padding-right: 80px;
-      font-size: 15px;
-  }
-  footer{
-    margin-left: 150px;
-  }
+   
+    
+    footer{
+        margin-left: 150px;
+    }
+    .icons{
+        margin-right: 90px;
+    }
+    .icons a>img{
+        width:30px;
+        height: 30px;
+       
+       }
+    .copyright{
+        padding-right: 80px;
+        font-size: 15px;
+    }
 }
 /*--------END-------------- Mobile Device---------END--------------- */
 
@@ -287,8 +282,20 @@ footer{
         padding-left: 50px;
         width:100%;
     }
+    .player-info p{
+        color: white;
+    }
     .extra-part{
-        width: 700px;
-        margin-left: 95px;
+        width: 100%;
+
+        margin-left: 60px;
+    }
+    .extra-detail{
+        width:300px;
+    }
+
+    .footer-img{ 
+        margin-left: -55px;
     }
 }
+/*--------END--------- tablet device ------------END-----------*/
