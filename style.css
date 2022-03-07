@@ -15,6 +15,7 @@ body{
  
     align-items: center;  
     padding-left: 100px;
+    padding-right: 38px;
     /* padding-top:30px ; */
     /* margin: 10px; */
     
@@ -32,10 +33,10 @@ body{
 .header-info{
     margin-left: 80px;   
 }
-/* .copa-title h2{
+/*----------------- .copa-title h2{
     display: grid;
     
-} */
+} ----------------------*/
 .header-banner{
     padding-right: 70px;
     
@@ -207,15 +208,24 @@ footer{
         width: 100%;
     }
     .header-banner{
-        padding-right: 180px;
-        margin-right: 100px;
+        /* padding-right: 180px;
+        margin-right: 100px; */
     }
+    /*------ player photo album------- */
     .players-album{
         background-color: blueviolet;
         display: grid;
         grid-template-columns: repeat(1,1fr);
-        width: 700px;
+        /* width: 700px; */
+        width:740px;
         margin:10px 0px;
+    }
+    .player{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .player-info p{
+        color: white;
     }
     /*------------- extra section ------------*/
     .extra-part{
@@ -229,14 +239,14 @@ footer{
 
     }
     .video iframe{
-       width:90%;
-       padding: 70px;
+       /* width:90%; */
+       /* padding: 70px; */
        justify-content:center;
 
     }
     .extra-detail{
         
-        padding: 60px;
+        padding: 10px;
     }
    
    .footer-img{
@@ -260,4 +270,25 @@ footer{
   }
 }
 /*--------END-------------- Mobile Device---------END--------------- */
+
+ 
 /*--------START--------- tablet device ------------START-----------*/
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .container{
+        width:100%;
+
+    }
+    .header-area, .players-album{
+            grid-template-columns: repeat(2,1fr);
+            background-color: red;
+            
+    }
+    .players-album{
+        padding-left: 50px;
+        width:100%;
+    }
+    .extra-part{
+        width: 700px;
+        margin-left: 95px;
+    }
+}
